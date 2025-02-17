@@ -1,0 +1,724 @@
+{
+  "tagDefinitions": {
+    "LI": "Locally Incorporated",
+    "SS": "Self-Service",
+    "TP": "Tech Partner",
+    "MNO DD": "MNO Due Diligence"
+  },
+ "countries": [
+    {
+      "name": "Benin",
+      "mnos": [
+        {
+          "mno": "MTN",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - TP",
+          "crypto": "LIVE - SS",
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": "Betting only as Tech Partner through SharpVision"
+        },
+        {
+          "mno": "Moov",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - TP",
+          "crypto": "LIVE - SS",
+          "fis": "LIVE - SS",
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": "Betting only as Tech Partner through SharpVision"
+        },
+        {
+          "mno": "Celtiis",
+          "status": "LIVE - Live as a Tech partner for betting only",
+          "goLiveETA": null,
+          "unregulated": "null",
+          "betting": "LIVE - TP",
+          "crypto": null,
+          "fis": null,
+          "intremit": null,
+          "psp": null,
+          "forex": null,
+          "lending": null,
+          "comments": "Betting only as Tech Partner through SharpVision"
+        }
+      ]
+    },
+    {
+      "name": "Burkina Faso",
+      "mnos": [
+        {
+          "mno": "Orange",
+          "status": "LIVE - SS",
+          "goLiveETA": "Not available on payouts",
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": null,
+          "comments": "Not available on payouts"
+        },
+        {
+          "mno": "Moov",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": "LIVE - SS",
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "Cameroon",
+      "mnos": [
+        {
+          "mno": "MTN",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": null,
+          "fis": "LIVE - SS",
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        },
+        {
+          "mno": "Orange",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": null,
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": null,
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "Congo-Brazzaville",
+      "mnos": [
+        {
+          "mno": "Airtel",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": "LIVE - SS",
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        },
+        {
+          "mno": "MTN",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": "LIVE - SS",
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "DRC",
+      "mnos": [
+        {
+          "mno": "Orange",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": null,
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        },
+        {
+          "mno": "Vodacom",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "MNO DD",
+          "crypto": null,
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        },
+        {
+          "mno": "Airtel",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": null,
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "Gabon",
+      "mnos": [
+        {
+          "mno": "Airtel",
+          "status": "Live",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": "LIVE - SS",
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        },
+        {
+          "mno": "Moov",
+          "status": "In Progress",
+          "goLiveETA": "Q1 2025",
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": "LIVE - SS",
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "Ghana",
+      "notes": "Only locally incorporated merchants can be onboarded!",
+      "mnos": [
+        {
+          "mno": "MTN",
+          "status": "LIVE - LI",
+          "goLiveETA": null,
+          "unregulated": "LIVE - LI",
+          "betting": "LIVE - LI",
+          "crypto": "LIVE - LI",
+          "fis": null,
+          "intremit": "LIVE - LI",
+          "psp": "LIVE - LI",
+          "forex": "LIVE - LI",
+          "lending": "LIVE - LI",
+          "comments": "For regulated institutions (betting and FIs) in Ghana, we must confirm with the regulator of those institutions that the license they have is valid.\nThen we must notify BOG that we are partnering with the relevant FI."
+        },
+        {
+          "mno": "AT (formerly AirtelTigo)",
+          "status": "LIVE - LI",
+          "goLiveETA": null,
+          "unregulated": "LIVE - LI",
+          "betting": "LIVE - LI",
+          "crypto": "LIVE - LI",
+          "fis": null,
+          "intremit": "LIVE - LI",
+          "psp": "LIVE - LI",
+          "forex": "LIVE - LI",
+          "lending": "LIVE - LI",
+          "comments": null
+        },
+        {
+          "mno": "Telecel (formerly Vodafone)",
+          "status": "LIVE - LI",
+          "goLiveETA": null,
+          "unregulated": "LIVE - LI",
+          "betting": "LIVE - LI",
+          "crypto": "LIVE - LI",
+          "fis": null,
+          "intremit": "LIVE - LI",
+          "psp": "LIVE - LI",
+          "forex": "LIVE - LI",
+          "lending": "LIVE - LI",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "Ivory Coast",
+      "mnos": [
+        {
+          "mno": "MTN",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        },
+        {
+          "mno": "Orange",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS(Big merchant)",
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": "Orange CIV is okay with crypto if it is big merchants like Binance"
+        },
+        {
+          "mno": "Wave",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        },
+        {
+          "mno": "Moov",
+          "status": "In Progress",
+          "goLiveETA": "August 24",
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": "LIVE - SS",
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "Kenya",
+      "mnos": [
+        {
+          "mno": "MPesa",
+          "status": "LIVE - SS",
+          "goLiveETA": "Live",
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": null,
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "NULL- TL",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": "Live in partnership with a licensed PSP, Sasapay\n\nForex requires a local FX trading license from CMA"
+        }
+      ]
+    },
+    {
+      "name": "Lesotho",
+      "mnos": [
+        {
+          "mno": "Vodacom",
+          "status": "LIVE - TP",
+          "goLiveETA": "Live",
+          "unregulated": "LIVE - TP",
+          "betting": "LIVE - TP",
+          "crypto": "LIVE - TP",
+          "fis": "LIVE - TP",
+          "intremit": "LIVE - TP",
+          "psp": null,
+          "forex": "LIVE - TP",
+          "lending": "LIVE - TP",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "Malawi",
+      "mnos": [
+        {
+          "mno": "Airtel",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": "LIVE - SS",
+          "intremit": "NULL - AD",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": "Merchant is required to have an authorised dealer license from the Reserve Bank of Malawi and a physical presence."
+        },
+        {
+          "mno": "TNM",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": "LIVE - SS",
+          "intremit": "NULL - AD",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "Mozambique",
+      "mnos": [
+        {
+          "mno": "Movitel",
+          "status": "LIVE - TP",
+          "goLiveETA": "Q1 25",
+          "unregulated": "LIVE - TP",
+          "betting": "LIVE - TP",
+          "crypto": null,
+          "fis": null,
+          "intremit": "LIVE - TP",
+          "psp": null,
+          "forex": null,
+          "lending": null,
+          "comments": null
+        },
+        {
+          "mno": "Vodacom",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": "LIVE - SS",
+          "intremit": "LIVE - SS",
+          "psp": null,
+          "forex": "LIVE - SS",
+          "lending": null,
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "Nigeria",
+      "notes": "Only locally incorporated merchants can be onboarded!",
+      "mnos": [
+        {
+          "mno": "Airtel",
+          "status": "LIVE - TP - LI",
+          "goLiveETA": "Q1 25",
+          "unregulated": "LIVE - TP - LI",
+          "betting": "LIVE - TP - LI",
+          "crypto": null,
+          "fis": null,
+          "intremit": "LIVE - TP - LI",
+          "psp": "LIVE - TP - LI",
+          "forex": null,
+          "lending": null,
+          "comments": null
+        },
+        {
+          "mno": "MTN",
+          "status": "LIVE - TP - LI",
+          "goLiveETA": "Q1 25",
+          "unregulated": "LIVE - TP - LI",
+          "betting": "LIVE - TP - LI",
+          "crypto": null,
+          "fis": null,
+          "intremit": "LIVE - TP - LI",
+          "psp": "LIVE - TP - LI",
+          "forex": null,
+          "lending": null,
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "Rwanda",
+      "mnos": [
+        {
+          "mno": "MTN",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "NULL - TL",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": "Forex merchants requires a local FX trading license from National Bank of Rwanda"
+        },
+        {
+          "mno": "Airtel",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": null,
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "Senegal",
+      "mnos": [
+        {
+          "mno": "Orange",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        },
+        {
+          "mno": "Free",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": "LIVE - SS",
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        },
+        {
+          "mno": "Wave",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": null,
+          "fis": "LIVE - SS",
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "Sierra Leone",
+      "mnos": [
+        {
+          "mno": "Orange",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "Tanzania",
+      "mnos": [
+        {
+          "mno": "Airtel",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS - MNO DD",
+          "betting": "MNO DD",
+          "crypto": "LIVE - TP - LI",
+          "fis": null,
+          "intremit": "MNO DD",
+          "psp": null,
+          "forex": "MNO DD\nSee comment",
+          "lending": "For Lending, a Letter of No Objection (LNO)/BOT Approval is required from the regulator, BOT\n\nIt is a criminal offence to trade in Forex in Tanzania",
+          "comments": "For Lending, a Letter of No Objection (LNO)/BOT Approval is required from the regulator, BOT\n\nIt is a criminal offence to trade in Forex in Tanzania"
+        },
+        {
+          "mno": "Vodacom",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - TP - LI",
+          "betting": "LIVE - TP - LI",
+          "crypto": "LIVE - TP - LI",
+          "fis": null,
+          "intremit": "LIVE - TP - LI",
+          "psp": null,
+          "forex": "MNO DD\nSee comment",
+          "lending": null,
+          "comments": "MNO DD\nSee comment"
+        },
+        {
+          "mno": "Halotel",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "MNO DD",
+          "betting": "MNO DD",
+          "crypto": "LIVE - TP - LI",
+          "fis": null,
+          "intremit": "MNO DD",
+          "psp": null,
+          "forex": "MNO DD\nSee comment",
+          "lending": null,
+          "comments": "MNO DD\nSee comment"
+        },
+        {
+          "mno": "Tigo",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "MNO DD",
+          "betting": "MNO DD",
+          "crypto": "LIVE - TP - LI",
+          "fis": null,
+          "intremit": "MNO DD",
+          "psp": null,
+          "forex": "MNO DD\nSee comment",
+          "lending": null,
+          "comments": "MNO DD\nSee comment"
+        }
+      ]
+    },
+    {
+      "name": "Uganda",
+      "mnos": [
+        {
+          "mno": "MTN",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        },
+        {
+          "mno": "Airtel",
+          "status": "LIVE - SS",
+          "goLiveETA": null,
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "LIVE - SS",
+          "forex": "LIVE - SS",
+          "lending": "LIVE - SS",
+          "comments": null
+        }
+      ]
+    },
+    {
+      "name": "Zambia",
+      "mnos": [
+        {
+          "mno": "Airtel",
+          "status": "LIVE - SS",
+          "goLiveETA": "LIVE SS - No real estate, prof consult, Public/gov",
+          "unregulated": "MNO DD",
+          "betting": "LIVE - TP",
+          "crypto": null,
+          "fis": null,
+          "intremit": "NULL - DL",
+          "psp": "LIVE - SS",
+          "forex": "Forex merchants must have an authorised dealer license",
+          "lending": null,
+          "comments": null
+        },
+        {
+          "mno": "MTN",
+          "status": "LIVE - SS",
+          "goLiveETA": "LIVE - SS",
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - BW",
+          "crypto": "LIVE - SS",
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "NULL - DL",
+          "forex": "LIVE - SS",
+          "lending": null,
+          "comments": null
+        },
+        {
+          "mno": "Zamtel",
+          "status": "LIVE - SS",
+          "goLiveETA": "LIVE - SS",
+          "unregulated": "LIVE - SS",
+          "betting": "LIVE - SS",
+          "crypto": "LIVE - SS",
+          "fis": null,
+          "intremit": "LIVE - SS",
+          "psp": "NULL - DL",
+          "forex": "LIVE - SS",
+          "lending": null,
+          "comments": null
+        }
+      ]
+    }
+  ]
+}
+
