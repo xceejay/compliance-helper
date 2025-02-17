@@ -80,7 +80,7 @@ export default function InputForm({ onSubmit, countries, businessLines }: InputF
             onChange={(e) => setExcludeLI(e.target.checked)}
             className="form-checkbox h-5 w-5 text-blue-600"
           />
-          <span className="ml-2 text-gray-700">Exclude MNOs that require local incoporation(LI) (except for registration country)</span>
+          <span className="ml-2 text-gray-700">Exclude MNOs that require local incorporation (except for registration country)</span>
         </label>
       </div>
       <div className="flex items-center justify-between">
