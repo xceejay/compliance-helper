@@ -30,17 +30,20 @@ export default function ComplianceHelper() {
   const [selectedCountry, setSelectedCountry] = useState<Country | null>(null)
   const [showOnlyRegisteredCountry, setShowOnlyRegisteredCountry] = useState(false)
   const [excludeLI, setExcludeLI] = useState(false)
+  const [showMinimalInfo, setShowMinimalInfo] = useState(false)
 
   const handleSubmit = async (
     country: string,
     businessLine: string,
     onlyRegisteredCountry: boolean,
     excludeLI: boolean,
+    showMinimalInfo: boolean,
   ) => {
     setLoading(true)
     setError(null)
     setShowOnlyRegisteredCountry(onlyRegisteredCountry)
     setExcludeLI(excludeLI)
+    setShowMinimalInfo(showMinimalInfo)
     try {
       // Convert business line to lowercase without spaces to match JSON keys
       const businessLineKey = businessLine.toLowerCase().replace(/\s+/g, "")
@@ -144,6 +147,7 @@ export default function ComplianceHelper() {
               tagDefinitions={complianceData.tagDefinitions}
               showOnlyRegisteredCountry={showOnlyRegisteredCountry}
               excludeLI={excludeLI}
+              showMinimalInfo={showMinimalInfo}
             />
           )}
         </div>

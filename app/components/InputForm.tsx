@@ -5,7 +5,13 @@ import type React from "react"
 import { useState } from "react"
 
 interface InputFormProps {
-  onSubmit: (country: string, businessLine: string, onlyRegisteredCountry: boolean, excludeLI: boolean) => void
+  onSubmit: (
+    country: string,
+    businessLine: string,
+    onlyRegisteredCountry: boolean,
+    excludeLI: boolean,
+    showMinimalInfo: boolean,
+  ) => void
   countries: string[]
   businessLines: string[]
 }
@@ -15,17 +21,18 @@ export default function InputForm({ onSubmit, countries, businessLines }: InputF
   const [businessLine, setBusinessLine] = useState("")
   const [onlyRegisteredCountry, setOnlyRegisteredCountry] = useState(false)
   const [excludeLI, setExcludeLI] = useState(false)
+  const [showMinimalInfo, setShowMinimalInfo] = useState(false)
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    onSubmit(country, businessLine, onlyRegisteredCountry, excludeLI)
+    onSubmit(country, businessLine, onlyRegisteredCountry, excludeLI, showMinimalInfo)
   }
 
   return (
     <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
       <div className="mb-4">
         <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="country">
-         Business Registration Country
+          Registration Country
         </label>
         <select
           id="country"
@@ -72,7 +79,7 @@ export default function InputForm({ onSubmit, countries, businessLines }: InputF
           <span className="ml-2 text-gray-700">Show only MNOs for registered country</span>
         </label>
       </div>
-      <div className="mb-6">
+      <div className="mb-4">
         <label className="flex items-center">
           <input
             type="checkbox"
@@ -80,7 +87,18 @@ export default function InputForm({ onSubmit, countries, businessLines }: InputF
             onChange={(e) => setExcludeLI(e.target.checked)}
             className="form-checkbox h-5 w-5 text-blue-600"
           />
-          <span className="ml-2 text-gray-700">Exclude MNOs that require local incorporation (except for registration country)</span>
+          <span className="ml-2 text-gray-700">Exclude LI MNOs (except for registration country)</span>
+        </label>
+      </div>
+      <div className="mb-6">
+        <label className="flex items-center">
+          <input
+            type="checkbox"
+            checked={showMinimalInfo}
+            onChange={(e) => setShowMinimalInfo(e.target.checked)}
+            className="form-checkbox h-5 w-5 text-blue-600"
+          />
+          <span className="ml-2 text-gray-700">Show only MNOs</span>
         </label>
       </div>
       <div className="flex items-center justify-between">
